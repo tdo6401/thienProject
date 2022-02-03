@@ -9,11 +9,4 @@ xDirection = right - left;
 
 xVector = xSpeed * xDirection;
 
-x = x + xVector;
-
-
-
-
-
-
-
+x = x + xVector
