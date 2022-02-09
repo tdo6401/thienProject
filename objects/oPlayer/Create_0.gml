@@ -15,3 +15,14 @@ grv = .3;
 jumpForce = -13
  
 yVector = 0;
+
+
+
+
+
+grv            = .5;
+
+jump_number     = 3; //How many jumps the player can make
+jump_current    = 2; //How many jumps the player has remaining
+
+ysp             = 0;

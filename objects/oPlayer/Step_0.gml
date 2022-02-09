@@ -58,6 +58,23 @@ yVector = jumpForce
 
 
 
+if(place_meeting(x, y + ysp, oWall))
+{
+    while(!place_meeting(x, y + sign(ysp), oWall))
+    {
+        y += sign(ysp);
+    }
+ 
+    if(ysp > 0)
+    {
+        jump_current = jump_number;
+    }
+ 
+    ysp = 0;
+}
+
+y += ysp;
+
 
 
 
