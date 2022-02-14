@@ -56,7 +56,13 @@ if (place_meeting(x, y+1, oWall) and (jump))
 yVector = jumpForce 
 }
 
+ysp += grv;
 
+if(keyboard_check_pressed(vk_space) && jump_current > 0)
+{
+    ysp = -0;
+    jump_current--;
+}
 
 if(place_meeting(x, y + ysp, oWall))
 {
@@ -74,6 +80,7 @@ if(place_meeting(x, y + ysp, oWall))
 }
 
 y += ysp;
+
 
 
 

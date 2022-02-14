@@ -11,18 +11,15 @@ xDirection = 0;
 xVector = xSpeed * xDirection;
 
 //gravity
-grv = .3;
-jumpForce = -13
+grv = .5;
+jumpForce = -10
  
 yVector = 0;
 
+grv            = .09;
 
-
-
-
-grv            = .5;
-
-jump_number     = 3; //How many jumps the player can make
-jump_current    = 2; //How many jumps the player has remaining
+jump_number     = 1; //How many jumps the player can make
+jump_current    = 1; //How many jumps the player has remaining
 
 ysp             = 0;
+
