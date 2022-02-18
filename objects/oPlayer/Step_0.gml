@@ -58,7 +58,7 @@ yVector = jumpForce
 
 ysp += grv;
 
-if(keyboard_check_pressed(vk_space) && jump_current > 0)
+if(keyboard_check_pressed(vk_down) && jump_current > 0)
 {
     ysp = -0;
     jump_current--;
