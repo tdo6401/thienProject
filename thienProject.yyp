@@ -4,8 +4,12 @@
     {"id":{"name":"oWall","path":"objects/oWall/oWall.yy",},"order":2,},
     {"id":{"name":"sWall","path":"sprites/sWall/sWall.yy",},"order":5,},
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},"order":1,},
+    {"id":{"name":"CheckCollsion","path":"scripts/CheckCollsion/CheckCollsion.yy",},"order":1,},
+    {"id":{"name":"CheckInput","path":"scripts/CheckInput/CheckInput.yy",},"order":0,},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
+    {"id":{"name":"StatePlayerJumping","path":"scripts/StatePlayerJumping/StatePlayerJumping.yy",},"order":2,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
+    {"id":{"name":"StatePlayerWalking","path":"scripts/StatePlayerWalking/StatePlayerWalking.yy",},"order":3,},
     {"id":{"name":"oBackground","path":"objects/oBackground/oBackground.yy",},"order":1,},
   ],
   "Options": [

@@ -1,18 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
-
-if(state == states.walking)
-{
-StatePlayerWalking();
-}
-
-
-if (state == states.jumping)
-{
-	StatePlayerJumping();
-}
-
-
+// Script assets have changed for v2.3.0 see
+// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
+function StatePlayerJumping(){
 
 CheckInput();
 //if key is pressed then right = 1, otherwise right = 0
@@ -64,43 +52,4 @@ if place_meeting(x, y + yVector , oWall)
 	}
 
 y=y + yVector;
-
-//to jump we ned 2 things,
-// fitrst check to see if the pizel below us is ground 
-// second check to see if the jump button is pressed 
-
-if (place_meeting(x, y+1, oWall) and (jump))
-{
-yVector = jumpForce 
 }
-
-ysp += grv;
-
-if(keyboard_check_pressed(vk_down) && jump_current > 0)
-{
-    ysp = -0;
-    jump_current--;
-}
-
-if(place_meeting(x, y + ysp, oWall))
-{
-    while(!place_meeting(x, y + sign(ysp), oWall))
-    {
-        y += sign(ysp);
-    }
- 
-    if(ysp > 0)
-    {
-        jump_current = jump_number;
-    }
- 
-    ysp = 0;
-}
-
-y += ysp;
-
-
-
-
-
-

@@ -1,6 +1,22 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+enum states 
+{
+walking,
+jumping,
+
+}
+
+state = states.walking;
+
+
+
+
+
+
+
+
 // xSpeed is how many pixels the player will move each frame 
 xSpeed =12;
 //what direction the player is moving. 1= to the righ , -1 to the left, 0 = not moving 
